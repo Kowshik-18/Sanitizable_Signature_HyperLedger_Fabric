@@ -1,0 +1,16 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "treeNode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-util": "^7.1.5",
+    "seedrandom": "^3.0.5"
+  }
+}

@@ -1,0 +1,111 @@
+ async getCredential(ctx, _id) {
+    var pcredential = await ctx.stub.getState(_id);
+    var credential = pcredential.toString();
+    var jsonCredential = JSON.parse(credential);
+
+    return {
+      ID: jsonCredential.ID,
+      issuer: jsonCredential.issuer,
+      holder: jsonCredential.holder,
+      credentialHash: jsonCredential.credentialHash,
+      issuerSig: jsonCredential.issuerSig,
+      delegationChain: jsonCredential.delegationChain,
+    };
+  }
+
+  async GetAllElements(ctx) {
+    const allResults = [];
+    const iterator = await ctx.stub.getStateByRange("", "");
+    let result = await iterator.next();
+    while (!result.done) {
+      const strValue = Buffer.from(result.value.value.toString()).toString(
+        "utf8"
+      );
+      let record;
+      try {
+        record = JSON.parse(strValue);
+      } catch (err) {
+        console.log(err);
+        record = strValue;
+      }
+      allResults.push(record);
+      result = await iterator.next();
+    }
+    return JSON.stringify(allResults);
+  }
+
+  async verifyIssuerPublicKey(ctx, issuer_publicKey) {
+    var elStr = await this.GetAllElements(ctx);
+    var elements = JSON.parse(elStr);
+    var ks = Object.keys(elements);
+    for (var k in ks) {
+      if (k.includes("Issuer")) {
+        _issuer = elements.k;
+        if (_issuer.PK == issuer_publicKey) {
+          return true;
+        }
+      }
+    }
+
+    return false;
+  }
+
+  async readElement(ctx, id) {
+    var pelement = await ctx.stub.getState(id);
+    var element = pelement.toString();
+    console.log(element);
+  }
+
+
+ async verifyRedactableCredential(
+    ctx,
+    id,
+    signature,
+    claimString,
+    unredactableHash
+  ) {
+    console.time("verifyCred");
+    var mes;
+    var credentialInfo = await this.getCredential(ctx, id);
+
+    var claimJSON = JSON.parse(claimString);
+    var claimList = claimJSON.Claim;
+    var listCopy = [...claimList];
+
+    var node = await treeJS.createTree(listCopy);
+    var rootHash = node.getV();
+
+    var holder = credentialInfo.holder;
+    var hash = credentialInfo.credentialHash;
+    var issuer_signature = credentialInfo.issuerSig;
+
+    console.log(unredactableHash);
+    if (unredactableHash != hash) {
+      console.log(hash);
+    }
+
+    //obtain issuer public key and check this key in the issuer's DDO
+    if (issuer_signature == signature) {
+      signature = JSON.parse(signature);
+      signature.r = util.toBuffer(signature.r);
+      signature.s = util.toBuffer(signature.s);
+      var issuer_publicKey = util.ecrecover(
+        rootHash,
+        signature.v,
+        signature.r,
+        signature.s
+      );
+      issuer_publicKey = util.bufferToHex(issuer_publicKey);
+      console.log("Signature Matches Blockchain!");
+      var checkpk = await this.verifyIssuerPublicKey(ctx, issuer_publicKey);
+      if (checkpk) {
+        mes = "Perfect!";
+      } else {
+        mes = "PK gone wrong";
+      }
+    } else {
+      mes = "FAILURE to match signatures";
+    }
+    console.timeEnd("verifyCred");
+    return mes;
+  }

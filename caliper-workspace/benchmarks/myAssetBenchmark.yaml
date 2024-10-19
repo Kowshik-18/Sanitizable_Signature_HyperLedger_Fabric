@@ -1,0 +1,18 @@
+test:
+  description: test benchmark
+  name: basic-contract-benchmark
+  rounds:
+  - description: Add DID benchmark
+    label: verifyCred
+    rateControl:
+      opts:
+        tps: 10
+      type: fixed-rate
+    txNumber: 5
+    workload:
+      arguments:
+        assets: 128
+        contractId: san-overall
+      module: workload/verifyCred.js
+  workers:
+    number: 150

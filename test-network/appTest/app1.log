@@ -1,0 +1,563 @@
+a
+Example app listening at http://:::8081
+/upload/credential1 1660152720198
+/get/credential1 1660152724463
+statusCode: 200
+OKDone
+Cred-ID-948175.2381367466
+/put/credential1 1660152726250
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152730819
+/create/claim1 1660152730823
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152734523
+/upload/claim1 1660152734528
+statusCode: 200
+OK/get/claim1 1660152737452
+statusCode: 200
+OKDone
+/check/claim1 1660152738920
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152743377
+PK gone wrong
+End 1660152743384
+statusCode: 200
+OK/upload/credential1 1660152750418
+/get/credential1 1660152753644
+statusCode: 200
+OKDone
+Cred-ID-992214.8691176597
+/put/credential1 1660152755072
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152762527
+/create/claim1 1660152762532
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152768393
+/upload/claim1 1660152768398
+statusCode: 200
+OK/get/claim1 1660152771253
+statusCode: 200
+OKDone
+/check/claim1 1660152772852
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152779216
+PK gone wrong
+End 1660152779223
+statusCode: 200
+OK/upload/credential1 1660152780603
+/get/credential1 1660152783335
+statusCode: 200
+OKDone
+Cred-ID-722845.3410729769
+/put/credential1 1660152785074
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152790865
+/create/claim1 1660152790869
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152796982
+/upload/claim1 1660152796986
+statusCode: 200
+OK/get/claim1 1660152800230
+statusCode: 200
+OKDone
+/check/claim1 1660152801661
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152807037
+PK gone wrong
+End 1660152807048
+statusCode: 200
+OK/upload/credential1 1660152810821
+/get/credential1 1660152813870
+statusCode: 200
+OKDone
+Cred-ID-465719.8563152283
+/put/credential1 1660152815382
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152821273
+/create/claim1 1660152821276
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152829239
+/upload/claim1 1660152829245
+statusCode: 200
+OK/get/claim1 1660152831861
+statusCode: 200
+OKDone
+/check/claim1 1660152833303
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152840410
+PK gone wrong
+End 1660152840414
+statusCode: 200
+OK/upload/credential1 1660152841026
+/get/credential1 1660152843966
+statusCode: 200
+OKDone
+Cred-ID-525708.9266748956
+/put/credential1 1660152845489
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152850487
+/create/claim1 1660152850490
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152855948
+/upload/claim1 1660152855953
+statusCode: 200
+OK/get/claim1 1660152858907
+statusCode: 200
+OKDone
+/check/claim1 1660152860447
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152865642
+PK gone wrong
+End 1660152865647
+statusCode: 200
+OK/upload/credential1 1660152871236
+/get/credential1 1660152874009
+statusCode: 200
+OKDone
+Cred-ID-940612.6095994174
+/put/credential1 1660152875391
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152882370
+/create/claim1 1660152882376
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152886536
+/upload/claim1 1660152886540
+statusCode: 200
+OK/get/claim1 1660152889320
+statusCode: 200
+OKDone
+/check/claim1 1660152890797
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152896245
+PK gone wrong
+End 1660152896254
+statusCode: 200
+OK/upload/credential1 1660152901428
+/get/credential1 1660152904270
+statusCode: 200
+OKDone
+Cred-ID-266584.94570699445
+/put/credential1 1660152905802
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152909613
+/create/claim1 1660152909617
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152913976
+/upload/claim1 1660152913985
+statusCode: 200
+OK/get/claim1 1660152916862
+statusCode: 200
+OKDone
+/check/claim1 1660152918193
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152922153
+PK gone wrong
+End 1660152922158
+statusCode: 200
+OK/upload/credential1 1660152931639
+/get/credential1 1660152934381
+statusCode: 200
+OKDone
+Cred-ID-111033.58171816224
+/put/credential1 1660152935875
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152939698
+/create/claim1 1660152939705
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152943884
+/upload/claim1 1660152943894
+statusCode: 200
+OK/get/claim1 1660152946662
+statusCode: 200
+OKDone
+/check/claim1 1660152948197
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152952931
+PK gone wrong
+End 1660152952941
+statusCode: 200
+OK/upload/credential1 1660152961854
+/get/credential1 1660152964582
+statusCode: 200
+OKDone
+Cred-ID-913492.0529284006
+/put/credential1 1660152966012
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660152970259
+/create/claim1 1660152970272
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660152973974
+/upload/claim1 1660152973982
+statusCode: 200
+OK/get/claim1 1660152976666
+statusCode: 200
+OKDone
+/check/claim1 1660152977993
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660152981728
+PK gone wrong
+End 1660152981737
+statusCode: 200
+OK/upload/credential1 1660152992062
+/get/credential1 1660152994864
+statusCode: 200
+OKDone
+Cred-ID-172777.53789082874
+/put/credential1 1660152996221
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153001283
+/create/claim1 1660153001292
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153007375
+/upload/claim1 1660153007385
+statusCode: 200
+OK/get/claim1 1660153010249
+statusCode: 200
+OKDone
+/check/claim1 1660153012811
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153016895
+PK gone wrong
+End 1660153016907
+statusCode: 200
+OK/upload/credential1 1660153022271
+/get/credential1 1660153024809
+statusCode: 200
+OKDone
+Cred-ID-223697.82276500217
+/put/credential1 1660153026464
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153030335
+/create/claim1 1660153030349
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153035641
+/upload/claim1 1660153035650
+statusCode: 200
+OK/get/claim1 1660153039025
+statusCode: 200
+OKDone
+/check/claim1 1660153040881
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153046364
+PK gone wrong
+End 1660153046370
+statusCode: 200
+OK/upload/credential1 1660153052484
+/get/credential1 1660153055358
+statusCode: 200
+OKDone
+Cred-ID-619523.0633570356
+/put/credential1 1660153056740
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153063357
+/create/claim1 1660153063361
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153068457
+/upload/claim1 1660153068460
+statusCode: 200
+OK/get/claim1 1660153071182
+statusCode: 200
+OKDone
+/check/claim1 1660153073224
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153079303
+PK gone wrong
+End 1660153079314
+statusCode: 200
+OK/upload/credential1 1660153082670
+/get/credential1 1660153085311
+statusCode: 200
+OKDone
+Cred-ID-254709.01027189076
+/put/credential1 1660153086742
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153093510
+/create/claim1 1660153093514
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153098541
+/upload/claim1 1660153098548
+statusCode: 200
+OK/get/claim1 1660153101490
+statusCode: 200
+OKDone
+/check/claim1 1660153102820
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153106610
+PK gone wrong
+End 1660153106623
+statusCode: 200
+OK/upload/credential1 1660153112882
+/get/credential1 1660153115851
+statusCode: 200
+OKDone
+Cred-ID-676809.6025319633
+/put/credential1 1660153117565
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153121943
+/create/claim1 1660153121956
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153128732
+/upload/claim1 1660153128762
+statusCode: 200
+OK/get/claim1 1660153131491
+statusCode: 200
+OKDone
+/check/claim1 1660153132619
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153137757
+PK gone wrong
+End 1660153137774
+statusCode: 200
+OK/upload/credential1 1660153143066
+/get/credential1 1660153145697
+statusCode: 200
+OKDone
+Cred-ID-614815.4679281011
+/put/credential1 1660153147146
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153152035
+/create/claim1 1660153152048
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153157479
+/upload/claim1 1660153157497
+statusCode: 200
+OK/get/claim1 1660153160471
+statusCode: 200
+OKDone
+/check/claim1 1660153161706
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153165549
+PK gone wrong
+End 1660153165557
+statusCode: 200
+OK/upload/credential1 1660153173277
+/get/credential1 1660153175926
+statusCode: 200
+OKDone
+Cred-ID-646328.9195502648
+/put/credential1 1660153177571
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153182122
+/create/claim1 1660153182132
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153186147
+/upload/claim1 1660153186161
+statusCode: 200
+OK/get/claim1 1660153188823
+statusCode: 200
+OKDone
+/check/claim1 1660153190085
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153193868
+PK gone wrong
+End 1660153193879
+statusCode: 200
+OK/upload/credential1 1660153203486
+/get/credential1 1660153206244
+statusCode: 200
+OKDone
+Cred-ID-522537.4131388967
+/put/credential1 1660153207574
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153211401
+/create/claim1 1660153211409
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153215180
+/upload/claim1 1660153215190
+statusCode: 200
+OK/get/claim1 1660153217917
+statusCode: 200
+OKDone
+/check/claim1 1660153219452
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153224399
+PK gone wrong
+End 1660153224405
+statusCode: 200
+OK/upload/credential1 1660153233699
+/get/credential1 1660153236453
+statusCode: 200
+OKDone
+Cred-ID-270225.12387664244
+/put/credential1 1660153237856
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153242298
+/create/claim1 1660153242311
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153246722
+/upload/claim1 1660153246740
+statusCode: 200
+OK/get/claim1 1660153249559
+statusCode: 200
+OKDone
+/check/claim1 1660153250991
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153255702
+PK gone wrong
+End 1660153255725
+statusCode: 200
+OK/upload/credential1 1660153263995
+/get/credential1 1660153266969
+statusCode: 200
+OKDone
+Cred-ID-874613.1219061944
+/put/credential1 1660153268297
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153272027
+/create/claim1 1660153272036
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153276286
+/upload/claim1 1660153276307
+statusCode: 200
+OK/get/claim1 1660153279768
+statusCode: 200
+OKDone
+/check/claim1 1660153281108
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153285616
+PK gone wrong
+End 1660153285626
+statusCode: 200
+OK/upload/credential1 1660153294185
+/get/credential1 1660153297002
+statusCode: 200
+OKDone
+Cred-ID-190473.025341549
+/put/credential1 1660153298669
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createCredential 1660153305645
+/create/claim1 1660153305661
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+createClaim 1660153312117
+/upload/claim1 1660153312140
+statusCode: 200
+OK/get/claim1 1660153314910
+statusCode: 200
+OKDone
+/check/claim1 1660153316321
+statusCode: 200
+OKSuccessfully enrolled user "admin"
+An identity for the user "appUser1" already exists in the wallet
+verifyCredential 1660153326962
+PK gone wrong
+End 1660153326976
+statusCode: 200
+OK
